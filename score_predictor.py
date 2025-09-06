@@ -44,7 +44,7 @@ model.fit(X_train, y_train)
 # Predictions
 y_pred = model.predict(X_test)
 
-# Evaluation
+# Evaluation using metrices
 print("\nLinear Regression Performance:")
 print("MAE:", mean_absolute_error(y_test, y_pred))
 print("MSE:", mean_squared_error(y_test, y_pred))
