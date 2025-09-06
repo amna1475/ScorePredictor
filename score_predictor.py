@@ -67,19 +67,15 @@ plt.show()
 poly = PolynomialFeatures(degree=2)  # Try degree=3 too
 X_poly_train = poly.fit_transform(X_train)
 X_poly_test = poly.transform(X_test)
-
 poly_model = LinearRegression()
 poly_model.fit(X_poly_train, y_train)
-
 y_poly_pred = poly_model.predict(X_poly_test)
-
 print("\nPolynomial Regression Performance:")
 print("R² Score:", r2_score(y_test, y_poly_pred))
 
 # Polynomial Regression Curve
 X_range = np.linspace(X.min(), X.max(), 100).reshape(-1, 1)
 y_poly_curve = poly_model.predict(poly.transform(X_range))
-
 plt.scatter(X, y, color="blue", label="Actual Data")
 plt.plot(X_range, y_poly_curve, color="green", linewidth=2, label="Polynomial Fit")
 plt.xlabel("Study Hours")
