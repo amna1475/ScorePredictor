@@ -67,4 +67,6 @@ A new feature `ExamScore` was created by averaging all subject scores.
 
 Email: amna.sparish@gmail.com
 
+Linkedin: https://www.linkedin.com/in/amna-bibi-5a82a62b3/
+
 Feel free to give feedback, I will be happy to learn and improve!
