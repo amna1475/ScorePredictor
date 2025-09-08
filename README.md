@@ -64,6 +64,7 @@ A new feature `ExamScore` was created by averaging all subject scores.
 ✨ Author
 
 👩‍💻 Amna Bibi
-📌 Registration #: FA23-BCS-016 
+
+Email: amna.sparish@gmail.com
 
 Feel free to give feedback, I will be happy to learn and improve!
